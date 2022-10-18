@@ -1,5 +1,33 @@
-.cart{
+.cart {
     position: sticky;
     top: 0;
     padding: 30px 20px;
+}
+
+.cart p span {
+    color: #ff8b00;
+    font-weight: 600;
+}
+
+button.clear-btn {
+    border: none;
+    padding: 10px 20px;
+    background: #fc3535;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.shopping-clear {
+    padding-left: 10px;
+}
+
+.show-reviwe-shopping {
+    margin-top: 15px;
+    border: none;
+    background: grey;
+    padding: 10px 27px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
 }

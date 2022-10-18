@@ -1,0 +1,69 @@
+.carts-container {
+    padding: 40px 0;
+}
+
+.show-reviwe-item {
+    display: flex;
+    align-items: center;
+    grid-gap: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 570px;
+    margin: 0 auto;
+    padding: 8px;
+    margin-bottom: 15px;
+
+}
+
+.reviwe-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cart-img img {
+    width: 80px;
+    border-radius: 5px;
+}
+
+.reviwe-container p {
+    padding: 0;
+    margin: 2px 0;
+}
+
+.reviwe-container p {
+    padding: 0;
+    margin: 2px 0;
+}
+
+.reviwe-container p span {
+    color: #ff8b00;
+    font-weight: 600;
+}
+
+.delate-btn {
+    border: none;
+    padding: 15px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #f3bdc5;
+    cursor: pointer;
+}
+
+.delate-icon {
+    color: #f84d66;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+
+}
+
+.no-shop {
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+    justify-content: center;
+    display: flex;
+}
