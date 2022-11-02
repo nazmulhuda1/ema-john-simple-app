@@ -25,9 +25,9 @@ const Cart = (props) => {
             <p>Tax: <span>{tax}</span></p>
             <h5>Grand Total: {grandTotal.toFixed(2)}</h5>
             <br />
-            <button onClick={clearCart} className='clear-btn'> Clear Shopping cart
+            {/* <button onClick={clearCart} className='clear-btn'> Clear Shopping cart
                 <FontAwesomeIcon className='shopping-clear' icon={faTrash}></FontAwesomeIcon>
-            </button>
+            </button> */}
             <br />
             <div className="reiviwe-order">
                 {children}

@@ -1,0 +1,81 @@
+.form-container {
+    width: 380px;
+    height: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0 40px;
+    background: #f8f8f8;
+
+}
+
+.form-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #2a414f;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-control label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    padding: 0 5px;
+    width: 98%;
+    height: 40px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    background: #f7d895;
+    width: 100%;
+    font-weight: 400;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-account {
+    text-align: center;
+    color: #666;
+    font-weight: 500;
+}
+
+.create-account a {
+    color: #f85d5d;
+}
+
+.loginGoogle {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #666;
+    cursor: pointer;
+}
+
+.text-error {
+    color: #f85d5d;
+}
