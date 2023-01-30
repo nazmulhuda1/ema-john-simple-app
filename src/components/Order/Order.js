@@ -3,12 +3,12 @@ import { Link, useLoaderData } from 'react-router-dom';
 import { deleteShoppingCart, removeFromDb } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import ReviweItems from '../ReviweItem/ReviweItems';
-
+ 
 const Order = () => {
     const { products, initialCart } = useLoaderData()
     const [cart, setCart] = useState(initialCart)
-    const handleRemoveItem = (id) => {
-        const remaining = cart.filter(product => product.id !== id);
+    const handleRemoveItem = id => {
+        const remaining = cart.filter(product => product._id !== id);
         setCart(remaining);
         removeFromDb(id);
     }
@@ -22,7 +22,7 @@ const Order = () => {
             <div className='carts-container'>
                 {
                     cart.map(product => <ReviweItems
-                        key={product.id}
+                        key={product._id}
                         product={product}
                         handleRemoveItem={handleRemoveItem}>
                     </ReviweItems>)
